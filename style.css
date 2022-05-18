@@ -14,6 +14,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'formula1display-regular';
+    src: url('formula1-regular-webfont.woff2') format('woff2'),
+        url('formula1-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -27,6 +35,8 @@ body {
 h1 {
     font-size: 50px;
 }
+
+
 .mainheader {
     font-family: 'formula1display-black';
     text-align: center;
@@ -120,11 +130,14 @@ h1 {
 }
 
 .standardtext {
-    font-family: 'formula1display-bold';
-    font-size: 30px;
+    font-family: 'formula1display-black';
     color: white;
     -webkit-text-stroke: 2px black;
     margin-left: 10px;
     margin-right: 10px;
+}
 
+.standardtext p {
+    font-size: 40px;
+    font-family: 'formula1display-bold';
 }
