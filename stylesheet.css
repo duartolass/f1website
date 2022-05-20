@@ -42,7 +42,7 @@ h1 {
     text-align: center;
     overflow: hidden;    
     background: #8E2424;
-    background: linear-gradient(rgb(142,36,36, 0.9), rgb(100, 0, 0, 0.9)), url("https://sportsdud.com/wp-content/uploads/2020/07/F1.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgb(142,36,36, 0.95), rgb(120, 36, 36), rgb(142,36,36, 0.95)), url("/assets/images/mainheader-image.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     background-position-y: 392px;
     background-repeat: repeat-y;
