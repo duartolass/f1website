@@ -40,10 +40,14 @@ h1 {
 .mainheader {
     font-family: 'formula1display-black';
     text-align: center;
-    background-color: #8E2424;
+    overflow: hidden;    
+    background: #8E2424;
+    background: linear-gradient(rgb(142,36,36, 0.9), rgb(100, 0, 0, 0.9)), url("https://sportsdud.com/wp-content/uploads/2020/07/F1.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    background-position-y: 392px;
+    background-repeat: repeat-y;
     border: 1px solid black;
-    text-decoration: none;
-    padding-top: 20px;
+    padding-top: 20px;  
     padding-bottom: 20px;
 }
 
