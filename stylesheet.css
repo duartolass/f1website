@@ -145,3 +145,96 @@ h1 {
     font-size: 40px;
     font-family: 'formula1display-bold';
 }
+
+.drivers-desc {
+    background-color: #8D8D8D;
+    opacity: 75%;
+    border-radius: 20px;
+    margin: 50px;
+    padding-bottom: 25px;
+}
+
+.drivers-title {
+    font-family: 'formula1display-bold';
+    color: #01A19B;
+    font-size: 50px;
+    -webkit-text-stroke: 2.5px black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.drivers-columns {
+    display: flex;
+}
+
+.drivers-stat {
+    display: flex;
+    opacity: 100%;
+    height: auto;
+    width: 750px;
+    background-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:#01A19B;
+    border-width: 10px;
+    margin: 50px;
+}
+
+.drivers-stat p {
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'formula1display-regular';
+    color: #01A19B;
+    -webkit-text-stroke: black 1.5px;
+    width: 350px;
+}
+
+.drivers-stat-right {
+    text-align: right;
+    width: 500px;
+}
+
+.drivers-stats-pic {
+
+}
+
+.drivers-season {
+    opacity: 100%;
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:#01A19B;
+    border-width: 10px;
+    margin: 50px;
+}
+
+.drivers-season-title {
+    margin-left: 50px;
+    font-family: 'formula1display-bold';
+    color: #01A19B;
+    font-size: 30px;
+    -webkit-text-stroke: black 1.5px;
+    text-align: center;
+}
+
+.drivers-season-columns {
+    height: auto;
+    width: auto;
+}
+
+.drivers-season-columns p {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'formula1display-regular';
+    color: #01A19B;
+    -webkit-text-stroke: black 1.5px;
+    width: auto;
+}
+
+.drivers-season-right {
+    text-align: right;
+    width: 100px;
+    margin-right: 20px;
+}   
