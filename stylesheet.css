@@ -148,7 +148,7 @@ h1 {
 
 .drivers-desc {
     background-color: #8D8D8D;
-    opacity: 75%;
+    opacity: 80%;
     border-radius: 20px;
     margin: 50px;
     padding-bottom: 25px;
@@ -156,7 +156,6 @@ h1 {
 
 .drivers-title {
     font-family: 'formula1display-bold';
-    color: #01A19B;
     font-size: 50px;
     -webkit-text-stroke: 2.5px black;
     text-align: center;
@@ -175,16 +174,14 @@ h1 {
     background-color: white;
     border-radius: 25px;
     border-style: solid;
-    border-color:#01A19B;
     border-width: 10px;
     margin: 50px;
 }
 
-.drivers-stat p {
+.drivers-stat table td tr {
     margin: 20px;
     font-size: 30px;
     font-family: 'formula1display-regular';
-    color: #01A19B;
     -webkit-text-stroke: black 1.5px;
     width: 350px;
 }
@@ -195,7 +192,26 @@ h1 {
 }
 
 .drivers-stats-pic {
+    display: flex;
+    opacity: 100%;
+    height: auto;
+    width: 750px;
+    background-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 10px;
+    margin: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
 
+#drivers-stats-lewis-hamilton {
+    background-image:url("/assets/images/drivers-stats-lewis-hamilton.png");
+}
+
+#drivers-stats-mercedes {
+    background-image:url("/assets/images/teams-stats-mercedes.png");
 }
 
 .drivers-season {
@@ -205,15 +221,14 @@ h1 {
     background-color: white;
     border-radius: 25px;
     border-style: solid;
-    border-color:#01A19B;
     border-width: 10px;
     margin: 50px;
+    
 }
 
 .drivers-season-title {
     margin-left: 50px;
     font-family: 'formula1display-bold';
-    color: #01A19B;
     font-size: 30px;
     -webkit-text-stroke: black 1.5px;
     text-align: center;
@@ -222,19 +237,108 @@ h1 {
 .drivers-season-columns {
     height: auto;
     width: auto;
-}
-
-.drivers-season-columns p {
-    margin-left: 20px;
+    margin: 20px;
     font-size: 30px;
     font-family: 'formula1display-regular';
-    color: #01A19B;
     -webkit-text-stroke: black 1.5px;
     width: auto;
 }
 
-.drivers-season-right {
-    text-align: right;
-    width: 100px;
-    margin-right: 20px;
-}   
+.drivers-season-columns table tr td{
+    padding: 5px;
+    width: 500px;
+}
+
+.drivers-season-columns tr:nth-child(even) {
+    background-color: #c2c2c2;
+  }
+
+.drivers-season-columns tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .drivers-season-columns td:nth-child(even) {
+      text-align: end;
+      width: 1000px;
+  }
+
+  .drivers-season-columns td:nth-child(odd) {
+    width: 90%;
+}
+
+.drivers-stat table tr td{
+    padding: 5px;
+    width: 500px;
+}
+
+.drivers-stat tr:nth-child(even) {
+    background-color: #c2c2c2;
+  }
+
+.drivers-stat tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .drivers-stat td:nth-child(even) {
+      text-align: end;
+      width: 1000px;
+  }
+
+  .drivers-stat td:nth-child(odd) {
+    width: 90%;
+}
+
+.drivers-stat-mercedes {
+    color: #01A19B;
+    border-color:#01A19B;
+}
+
+.standings-stat {
+    color:#8E2424;
+    border-color:#8E2424;
+}
+
+.standings-stat-black {
+    color: black;
+}
+
+.standings-stat-table {
+    color: black;
+    -webkit-text-stroke: 0px;
+    font-size: 10px;
+}
+
+.standings-title {
+    color: black;
+    -webkit-text-stroke: white 1.5px;
+}
+
+.standings-season-columns {
+    height: auto;
+    width: auto;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'formula1display-regular';
+    -webkit-text-stroke: black 1.5px;
+    width: auto;
+}
+
+.standings-season-columns table tr td{
+    padding: 5px;
+    width: 100%;
+}
+
+.standings-season-columns tr:nth-child(even) {
+    background-color: #c2c2c2;
+  }
+
+.standings-season-columns tr {
+    border-bottom: 1px solid #dddd;
+  }
+
+  .standings-season-columns td {
+    text-align: center;
+}
+  .standings-season-columns td:first-child {
+    width: 5%;
+}
