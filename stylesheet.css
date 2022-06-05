@@ -93,8 +93,7 @@ h1 {
 }
 
 .page-buttons-background {
-    background-color: #8D8D8D;
-    opacity: 75%;
+    background-color:rgb(141,141,141, 0.6);
     width: 1810;
     height: auto;
     padding: 25px;
@@ -115,7 +114,7 @@ h1 {
 .page-buttons a {
     margin-left: auto;
     margin-right: auto;
-    border: #8E8E8E 2px solid;
+    border: #8E8E8E 1px solid;
     border-radius: 25px;
     height: 500px;
 }
@@ -191,6 +190,7 @@ h1 {
     width: 500px;
 }
 
+
 .drivers-stats-pic {
     display: flex;
     opacity: 100%;
@@ -202,11 +202,16 @@ h1 {
     border-width: 10px;
     margin: 50px;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     align-content: flex-end;
 }
 
 #drivers-stats-lewis-hamilton {
+    background-image:url("/assets/images/drivers-stats-lewis-hamilton.png");
+}
+
+#drivers-stats-george-russell {
     background-image:url("/assets/images/drivers-stats-lewis-hamilton.png");
 }
 
