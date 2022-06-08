@@ -36,6 +36,7 @@ h1 {
     font-size: 50px;
 }
 
+/* MAIN HEADER */
 
 .mainheader {
     font-family: 'formula1display-black';
@@ -50,6 +51,8 @@ h1 {
     padding-top: 20px;  
     padding-bottom: 20px;
 }
+
+/* NAVIGATION BAR */
 
 .mainheader-title {
     font-size: 50px;
@@ -145,6 +148,8 @@ h1 {
     font-family: 'formula1display-bold';
 }
 
+/* DRIVERS BOX AND PAGE */
+
 .drivers-desc {
     background-color: #8D8D8D;
     opacity: 80%;
@@ -190,6 +195,7 @@ h1 {
     width: 500px;
 }
 
+/* DRIVERS STATISTICS PAGE PICTURE-PORTRAIT */
 
 .drivers-stats-pic {
     display: flex;
@@ -212,12 +218,46 @@ h1 {
 }
 
 #drivers-stats-george-russell {
-    background-image:url("/assets/images/drivers-stats-lewis-hamilton.png");
+    background-image:url("/assets/images/drivers-stats-george-russell.png");
+}
+
+#drivers-stats-max-verstappen {
+    background-image:url("/assets/images/drivers-stats-max-verstappen.png");
+}
+
+#drivers-stats-sergio-perez {
+    background-image:url("/assets/images/drivers-stats-sergio-perez.png");
+}
+
+#drivers-stats-charles-leclerc {
+    background-image:url("/assets/images/drivers-stats-charles-leclerc.png");
+}
+
+#drivers-stats-carlos-sainz {
+    background-image:url("/assets/images/drivers-stats-carlos-sainz.png");
+}
+
+#drivers-stats-lando-norris {
+    background-image:url("/assets/images/drivers-stats-lando-norris.png");
+}
+
+#drivers-stats-daniel-ricciardo {
+    background-image:url("/assets/images/drivers-stats-daniel-ricciardo.png");
+}
+
+#drivers-stats-fernando-alonso {
+    background-image:url("/assets/images/drivers-stats-fernando-alonso.png");
+}
+
+#drivers-stats-lance-stroll {
+    background-image:url("/assets/images/drivers-stats-lance-stroll.png ");
 }
 
 #drivers-stats-mercedes {
     background-image:url("/assets/images/teams-stats-mercedes.png");
 }
+
+/*DRIVERS STATISTICS BOX*/
 
 .drivers-season {
     opacity: 100%;
@@ -232,11 +272,11 @@ h1 {
 }
 
 .drivers-season-title {
-    margin-left: 50px;
     font-family: 'formula1display-bold';
     font-size: 30px;
     -webkit-text-stroke: black 1.5px;
     text-align: center;
+
 }
 
 .drivers-season-columns {
@@ -248,6 +288,8 @@ h1 {
     -webkit-text-stroke: black 1.5px;
     width: auto;
 }
+
+/* DRIVERS STATISTICS TABLE */
 
 .drivers-season-columns table tr td{
     padding: 5px;
@@ -293,9 +335,66 @@ h1 {
     width: 90%;
 }
 
+
+/* STATISTICS COLORS */
 .drivers-stat-mercedes {
-    color: #01A19B;
-    border-color:#01A19B;
+    color: #00FFF6;
+    border-color:#00FFF6;
+}
+
+.drivers-stat-redbull {
+    color: #0A0095;
+    border-color:#0A0095;
+}
+
+.drivers-stat-ferrari {
+    color: #FF0000;
+    border-color:#FF0000;
+}
+
+.drivers-stat-mclaren {
+    color: #FF6F00;
+    border-color:#FF6F00;
+}
+
+.drivers-stat-alpine {
+    color: #006FBA;
+    border-color:#006FBA;
+}
+
+.drivers-stat-alphatauri {
+    color: #01102F;
+    border-color:#01102F;
+}
+
+.drivers-stat-aston-martin {
+    color: #0A796A;
+    border-color:#0A796A;
+}
+
+.drivers-stat-williams {
+    color: #00A0DE;
+    border-color:#00A0DE;
+}
+
+.drivers-stat-alfa-romeo {
+    color: #4D0000;
+    border-color:#4D0000;
+}
+
+.drivers-stat-haas {
+    color: white;
+    border-color:white;
+}
+
+.drivers-stat-racing-point {
+    color: #F394C6;
+    border-color:#F394C6;
+}
+
+.drivers-stat-renault {
+    color: #FFFF00;
+    border-color:#FFFF00;
 }
 
 .standings-stat {
@@ -318,6 +417,8 @@ h1 {
     -webkit-text-stroke: white 1.5px;
 }
 
+/* STANDINGS BOX */
+
 .standings-season-columns {
     height: auto;
     width: auto;
@@ -327,6 +428,8 @@ h1 {
     -webkit-text-stroke: black 1.5px;
     width: auto;
 }
+
+/* STANDINGS TABLE */
 
 .standings-season-columns table tr td{
     padding: 5px;
