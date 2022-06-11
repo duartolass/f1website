@@ -151,8 +151,7 @@ h1 {
 /* DRIVERS BOX AND PAGE */
 
 .drivers-desc {
-    background-color: #8D8D8D;
-    opacity: 80%;
+    background-color: rgb(141, 141, 141,0.8);
     border-radius: 20px;
     margin: 50px;
     padding-bottom: 25px;
@@ -172,10 +171,9 @@ h1 {
 
 .drivers-stat {
     display: flex;
-    opacity: 100%;
     height: auto;
     width: 750px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 25px;
     border-style: solid;
     border-width: 10px;
@@ -199,7 +197,6 @@ h1 {
 
 .drivers-stats-pic {
     display: flex;
-    opacity: 100%;
     height: auto;
     width: 750px;
     background-color: white;
@@ -249,21 +246,132 @@ h1 {
     background-image:url("/assets/images/drivers-stats-fernando-alonso.png");
 }
 
+#drivers-stats-pierre-gasly {
+    background-image:url("/assets/images/drivers-stats-pierre-gasly.png");
+}
+
+#drivers-stats-yuki-tsunoda {
+    background-image:url("/assets/images/drivers-stats-yuki-tsunoda.png");
+}
+
+#drivers-stats-sebastian-vettel {
+    background-image:url("/assets/images/drivers-stats-sebastian-vettel.png");
+}
+
 #drivers-stats-lance-stroll {
-    background-image:url("/assets/images/drivers-stats-lance-stroll.png ");
+    background-image:url("/assets/images/drivers-stats-lance-stroll.png");
+}
+
+#drivers-stats-alex-albon {
+    background-image:url("/assets/images/drivers-stats-alex-albon.png");
+}
+
+#drivers-stats-nicholas-latifi {
+    background-image:url("/assets/images/drivers-stats-nicholas-latifi.png");
+}
+
+#drivers-stats-valtteri-bottas {
+    background-image:url("/assets/images/drivers-stats-valtteri-bottas.png");
+}
+
+#drivers-stats-zhou-guanyu {
+    background-image:url("/assets/images/drivers-stats-zhou-guanyu.png");
+}
+
+#drivers-stats-mick-schumacher {
+    background-image:url("/assets/images/drivers-stats-mick-schumacher.png");
+}
+
+#drivers-stats-kevin-magnussen {
+    background-image:url("/assets/images/drivers-stats-kevin-magnussen.png");
+}
+
+#drivers-stats-kimi-raikkonnen {
+    background-image:url("/assets/images/drivers-stats-kimi-raikkonnen.png");
+}
+
+#drivers-stats-daniil-kvyat {
+    background-image:url("/assets/images/drivers-stats-daniil-kvyat.png");
+}
+
+#drivers-stats-antonio-giovinazzi {
+    background-image:url("/assets/images/drivers-stats-antonio-giovinazzi.png");
+}
+
+#drivers-stats-romain-grosjean {
+    background-image:url("/assets/images/drivers-stats-romain-grosjean.png");
+}
+
+#drivers-stats-nikita-mazepin {
+    background-image:url("/assets/images/drivers-stats-nikita-mazepin.png");
 }
 
 #drivers-stats-mercedes {
     background-image:url("/assets/images/teams-stats-mercedes.png");
+    background-size: contain;
 }
 
+#drivers-stats-ferrari {
+    background-image:url("/assets/images/teams-stats-ferrari.png");
+    background-size: contain;
+}
+
+#drivers-stats-redbull {
+    background-image:url("/assets/images/teams-stats-redbull.png");
+    background-size: contain;
+}
+
+#drivers-stats-mclaren {
+    background-image:url("/assets/images/teams-stats-mclaren.png");
+    background-size: contain;
+}
+
+#drivers-stats-alpine {
+    background-image:url("/assets/images/teams-stats-alpine.png");
+    background-size: contain;
+}
+
+#drivers-stats-renault {
+    background-image:url("/assets/images/teams-stats-renault.png");
+    background-size: contain;
+}
+
+#drivers-stats-racing-point {
+    background-image:url("/assets/images/teams-stats-racing-point.png");
+    background-size: contain;
+}
+
+#drivers-stats-aston-martin {
+    background-image:url("/assets/images/teams-stats-aston-martin.png");
+    background-size: contain;
+}
+
+#drivers-stats-alphatauri {
+    background-image:url("/assets/images/teams-stats-alphatauri.png");
+    background-size: contain;
+}
+
+#drivers-stats-alfa-romeo {
+    background-image:url("/assets/images/teams-stats-alfa-romeo.png");
+    background-size: contain;
+}
+
+#drivers-stats-haas {
+    background-image:url("/assets/images/teams-stats-haas.png");
+    background-size: contain;
+}
+
+#drivers-stats-williams {
+    background-image:url("/assets/images/teams-stats-williams.png");
+    background-size: contain;
+}
 /*DRIVERS STATISTICS BOX*/
 
 .drivers-season {
     opacity: 100%;
     height: auto;
     width: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 25px;
     border-style: solid;
     border-width: 10px;
@@ -447,6 +555,19 @@ h1 {
   .standings-season-columns td {
     text-align: center;
 }
-  .standings-season-columns td:first-child {
-    width: 5%;
+
+.standings-stat td:nth-child(even) {
+    width: 50%;
+}
+
+.standings-season-columns td:first-child {
+    width: 0%;
+}
+
+.standings-season-columns td:last-child {
+    width: 0%;
+}
+
+.standings-constructors td:nth-child(even) {
+    width: 200%;
 }
